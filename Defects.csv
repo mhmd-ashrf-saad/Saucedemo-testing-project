@@ -1,0 +1,42 @@
+"id","title","test case id","author","assignee","actual result","status","milestone","severity","external issues","attachments","tags"
+"34","checkout info is invalid","15","Mohamed Ashraf","Unassigned","the invalid data has passed","Open","","Critical","","",""
+"33","checkout info is invalid","15","Mohamed Ashraf","Unassigned","the invalid checkout data has passed","Open","","Critical","","",""
+"32","UI/UX","20","Mohamed Ashraf","Unassigned","checkout button has invalid position","Open","","Not set","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/aa83ab60d6ce8e6d8edd7503aea1680396e95ae5/image.png",""
+"31","checkout button cart is empty","11","Mohamed Ashraf","Unassigned","checkout button takes you to checkout page if the cart is empty","Open","","Critical","","",""
+"30","UI/UX design","19","Mohamed Ashraf","Unassigned","hamburger menu is tilted
+cart icon isn't in it position
+product with id 3 has add to cart button in invalid position","Open","","Critical","","",""
+"29","validate data","18","Mohamed Ashraf","Unassigned","product 4 has invalid image data","Open","","Major","","",""
+"28","checkout info is invalid","15","Mohamed Ashraf","Unassigned","blocked by last name field problem","Open","","Not set","","",""
+"27","checkout info is invalid","15","Mohamed Ashraf","Unassigned","blocked by last name field problem","Open","","Not set","","",""
+"26","checkout info is invalid","15","Mohamed Ashraf","Unassigned","blocked by last name field problem","Open","","Not set","","",""
+"25","checkout info is invalid","15","Mohamed Ashraf","Unassigned","blocked by last name field problem","Open","","Not set","","",""
+"24","checkout info is invalid","15","Mohamed Ashraf","Unassigned","blocked by last name field problem","Open","","Not set","","",""
+"23","checkout info valid","14","Mohamed Ashraf","Unassigned","no result","Open","","Blocker","","",""
+"22","checkout button cart is empty","11","Mohamed Ashraf","Unassigned","the button keeps working even the cart is empty","Open","","Major","","",""
+"21","remove button","8","Mohamed Ashraf","Mohamed Ashraf","remove button doesn't respond","Open","","Critical","","",""
+"20","add to cart button","7","Mohamed Ashraf","Mohamed Ashraf","Some products have not working add to cart button","Open","","Blocker","","",""
+"19","add to cart button","6","Mohamed Ashraf","Mohamed Ashraf","3/6 products only can be added to the cart","Open","","Blocker","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/52fa6e6d4a1c3a80fe3115bd10a4be7a75a94760/image.png",""
+"18","Sorting","4","Mohamed Ashraf","Mohamed Ashraf","Error message ""Sorting is broken! This error has been reported to Backtrace.""","Open","","Major","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/7686ab1ca2872402841f3eab93550881ed955c2b/image.png",""
+"17","Sorting","4","Mohamed Ashraf","Mohamed Ashraf","Error message ""Sorting is broken! This error has been reported to Backtrace.""","Open","","Major","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/2e4f2fdd19efdbf86c353e48d3ef816fb7835030/image.png",""
+"16","checkout info valid","14
+15
+17","Mohamed Ashraf","Mohamed Ashraf","no result","Open","","Blocker","","",""
+"15","cancel button","16","Mohamed Ashraf","Mohamed Ashraf","no result","Open","","Blocker","","",""
+"14","title of the products","13","Mohamed Ashraf","Unassigned","it redirect to another products","Open","","Not set","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/d569071af2d2d523b8a41b4f60bf23cf2f0b5427/image.png
+https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/e5c308919214e69784f562db2bcd9461113824b0/image.png",""
+"13","checkout button cart is empty","11","Mohamed Ashraf","Unassigned","the button worked","Open","","Not set","","",""
+"12","navigate cart page","","Mohamed Ashraf","Mohamed Ashraf","website doesn't work and give white page","Open","","Blocker","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/c2663cc5cb2ac37fb2a0b707ec16de6eb7a79cde/image.png",""
+"11","remove button","8","Mohamed Ashraf","Mohamed Ashraf","NULL","Open","","Blocker","","",""
+"10","add to cart button","7","Mohamed Ashraf","Mohamed Ashraf","not working on all products","Open","","Blocker","","",""
+"9","validate data","18","Mohamed Ashraf","Mohamed Ashraf","images not correct","Open","","Blocker","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/7919c126c0bddf4d7077e9997d247744bfcd69b2/image.png",""
+"8","add to cart button","6","Mohamed Ashraf","Mohamed Ashraf","add to cart in some products isn't working","Open","","Critical","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/fe135947543c6ef45ea07b134c9ca4a104074020/image.png",""
+"7","Products clickable area and takes you to the actual product page","5","Mohamed Ashraf","Mohamed Ashraf","not the actual product","Open","","Blocker","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/3c8c7dcdf25709517e96d0e10a5eb73542630e3d/image.png
+https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/df9ead13ea9190b028e85c96f2ce38e78199d3d1/image.png",""
+"6","Sorting","4","Mohamed Ashraf","Mohamed Ashraf","no sorting applied","Open","","Critical","","",""
+"5","checkout info is invalid","15","Mohamed Ashraf","Mohamed Ashraf","redirected to check out step two","Open","","Major","","",""
+"4","checkout info is invalid","15","Mohamed Ashraf","Mohamed Ashraf","the checkout continue even if all fields are type wrong","Open","","Major","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/ddac82305b21fe733c3b483273186537a9e1f748/image.png
+https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/eb655d6eac2532ead90f16ede222ad9de42c319d/image.png",""
+"3","checkout button cart is empty","11","Mohamed Ashraf","Mohamed Ashraf","the checkout button redirect to checkout page step one","Open","","Critical","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/77912c88b9ce4fc2efaac545f9800a04935be91d/image.png
+https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/fce39a65054bbd408c17d850495ff3f972749538/image.png",""
+"2","Valid login","1","Mohamed Ashraf","Mohamed Ashraf","login failed","Open","","Blocker","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/33f7a37e1d6b56f3fc340544c0913bac2a5d8373/attachment/75a31392feceb719fb8ac4dfe2497f05524f3b02/image.png",""

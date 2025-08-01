@@ -1,0 +1,162 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+4,Sorting,"Products page",2,"Mohamed Ashraf",5000,Passed,"2025-08-01 12:37:32","1. login
+2. on the products page click on filter top right
+3. choose Name (A to Z)
+4. Name (Z to A)
+5. choose Price (low to high)
+6. choose Price (high to low)
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. the result is arranged alphabetically from a to z
+4. the result is arranged alphabetically from z to a
+5. the result is arranged from low price to high price
+6. the result is arranged from high price to low price
+",,,,,High,Critical,Manual,Functional,,false,"sort field: Name (A to Z)"
+4,Sorting,"Products page",2,"Mohamed Ashraf",5000,Passed,"2025-08-01 12:37:32","1. login
+2. on the products page click on filter top right
+3. choose Name (A to Z)
+4. Name (Z to A)
+5. choose Price (low to high)
+6. choose Price (high to low)
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. the result is arranged alphabetically from a to z
+4. the result is arranged alphabetically from z to a
+5. the result is arranged from low price to high price
+6. the result is arranged from high price to low price
+",,,,,High,Critical,Manual,Functional,,false,"sort field: Name (Z to A)"
+4,Sorting,"Products page",2,"Mohamed Ashraf",5000,Passed,"2025-08-01 12:37:32","1. login
+2. on the products page click on filter top right
+3. choose Name (A to Z)
+4. Name (Z to A)
+5. choose Price (low to high)
+6. choose Price (high to low)
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. the result is arranged alphabetically from a to z
+4. the result is arranged alphabetically from z to a
+5. the result is arranged from low price to high price
+6. the result is arranged from high price to low price
+",,,,,High,Critical,Manual,Functional,,false,"sort field: Price (low to high)"
+4,Sorting,"Products page",2,"Mohamed Ashraf",5000,Passed,"2025-08-01 12:37:32","1. login
+2. on the products page click on filter top right
+3. choose Name (A to Z)
+4. Name (Z to A)
+5. choose Price (low to high)
+6. choose Price (high to low)
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. the result is arranged alphabetically from a to z
+4. the result is arranged alphabetically from z to a
+5. the result is arranged from low price to high price
+6. the result is arranged from high price to low price
+",,,,,High,Critical,Manual,Functional,,false,"sort field: Price (high to low)"
+5,"Products clickable area and takes you to the actual product page","Products page",2,"Mohamed Ashraf",39309,Passed,"2025-08-01 12:38:14",,,,,,,,Medium,Major,Manual,Functional,,false,
+6,"add to cart button","Products page",2,"Mohamed Ashraf",11732,Passed,"2025-08-01 12:38:27","1. on each product on the page click add to cart
+","1. 
+","1. the item is added to the cart and the button changes to remove and the cart is increased by one
+","1. Untested
+","1. ",,,High,Critical,Manual,Functional,,false,
+18,"validate data","Products page",2,"Mohamed Ashraf",5000,Failed,"2025-08-01 12:38:53",,,,,,"<p>failed for the product with id 4</p>",,High,Critical,Manual,Other,,false,
+19,"UI/UX design","Products page",2,"Mohamed Ashraf",2000,Failed,"2025-08-01 12:40:08",,,,,,"<p>hamburger menu is tilted<br />
+cart icon isn't in it position<br />
+product with id 3 has add to cart button in invalid position</p>",,Medium,Major,Manual,Usability,,false,
+7,"add to cart button","product page details",3,"Mohamed Ashraf",22247,Passed,"2025-08-01 12:40:39","1. click on add to cart button
+","1. 
+","1. the product is added to the cart and the cart is increased by one
+","1. Untested
+","1. ",,,High,Blocker,Manual,Functional,,false,
+8,"remove button","product page details",3,"Mohamed Ashraf",16537,Passed,"2025-08-01 12:40:57","1. click on the remove button of the product
+","1. 
+","1. the product removed from the cart the cart number is decreased by one
+","1. Untested
+","1. ",,,High,Critical,Manual,Functional,,false,
+9,"remove button","cart page",4,"Mohamed Ashraf",11946,Passed,"2025-08-01 12:41:09","1. click on remove button for a product
+","1. 
+","1. the item is removed from cart
+","1. Untested
+","1. ",,,High,Critical,Manual,Functional,,false,
+10,"checkout button products exists","cart page",4,"Mohamed Ashraf",10314,Passed,"2025-08-01 12:41:20","1. add products to the cart
+2. click on checkout button
+","1. 
+2. 
+","1. 
+2. go to checkout page
+","1. Untested
+2. Untested
+","1. 
+2. ",,,High,Critical,Manual,Functional,,false,
+11,"checkout button cart is empty","cart page",4,"Mohamed Ashraf",5000,Failed,"2025-08-01 12:41:28","1. click on cart
+2. click on checkout
+","1. 
+2. 
+","1. 
+2. check out shouldn't redirect to checkout page
+","1. Untested
+2. Untested
+","1. 
+2. ",,,High,Critical,Manual,Functional,,false,
+12,"continue shopping button","cart page",4,"Mohamed Ashraf",5998,Passed,"2025-08-01 12:41:59","1. click on continue shopping button
+","1. 
+","1. should be redirected to all products page
+","1. Untested
+","1. ",,,Medium,Normal,Manual,Functional,,false,
+13,"title of the products","cart page",4,"Mohamed Ashraf",6567,Passed,"2025-08-01 12:42:07","1. click on the title of the product
+","1. 
+","1. redirect to product details page
+","1. Untested
+","1. ",,,Medium,Normal,Manual,Functional,,false,
+20,UI/UX,"cart page",4,"Mohamed Ashraf",2000,Failed,"2025-08-01 12:42:36",,,,,,"<p>checkout button has invalid position</p>",,Medium,Major,Manual,Usability,,false,
+14,"checkout info valid","Checkout page",5,"Mohamed Ashraf",11810,Passed,"2025-08-01 12:42:51",,,,,,,,High,Critical,Manual,Functional,,true,"First Name: Mohamed
+Last Name: Ashraf
+Zip/Postal Code: 32958"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",16000,Failed,"2025-08-01 12:43:11",,,,,,,,High,Critical,Manual,Functional,,true,"First Name: 001022215
+Last Name: 0.36500
+Zip/Postal Code: slkdmfkldsf"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",3333,Failed,"2025-08-01 12:43:53",,,,,,,,High,Critical,Manual,Functional,,true,"First Name: Mohamed
+Last Name: 56654
+Zip/Postal Code: akldklasjd"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",3333,Failed,"2025-08-01 12:43:53",,,,,,,,High,Critical,Manual,Functional,,true,"First Name: Mohamed
+Last Name: Ashraf
+Zip/Postal Code: lsflksdjflkj"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",3333,Failed,"2025-08-01 12:43:53",,,,,,,,High,Critical,Manual,Functional,,true,"First Name: 329408324
+Last Name: Ashraf
+Zip/Postal Code: 32898"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",9132,Passed,"2025-08-01 12:44:36",,,,,,,,High,Critical,Manual,Functional,,true,"First Name: empty
+Last Name: empty
+Zip/Postal Code: empty"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",7172,Passed,"2025-08-01 12:44:26",,,,,,,,High,Critical,Manual,Functional,,true,"First Name: empty
+Last Name: empty
+Zip/Postal Code: 3213285"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",8205,Passed,"2025-08-01 12:44:18",,,,,,,,High,Critical,Manual,Functional,,true,"First Name: empty
+Last Name: Ashraf
+Zip/Postal Code: 6548"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",5841,Passed,"2025-08-01 12:44:09",,,,,,,,High,Critical,Manual,Functional,,true,"First Name: Mohamed
+Last Name: empty
+Zip/Postal Code: empty"
+16,"cancel button","Checkout page",5,"Mohamed Ashraf",3131,Passed,"2025-08-01 12:44:40",,,,,,,,Medium,Normal,Manual,Functional,,false,
+17,"information of the order should be correct","checkout page step two",6,"Mohamed Ashraf",19877,Passed,"2025-08-01 12:45:01",,,,,,,,"Not set",Normal,Manual,Other,,false,

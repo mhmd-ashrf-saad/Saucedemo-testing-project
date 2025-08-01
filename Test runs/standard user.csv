@@ -1,0 +1,168 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+4,Sorting,"Products page",2,"Mohamed Ashraf",145602,Passed,"2025-07-31 16:05:00","1. login
+2. on the products page click on filter top right
+3. choose Name (A to Z)
+4. Name (Z to A)
+5. choose Price (low to high)
+6. choose Price (high to low)
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. the result is arranged alphabetically from a to z
+4. the result is arranged alphabetically from z to a
+5. the result is arranged from low price to high price
+6. the result is arranged from high price to low price
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. ",,,High,Critical,Manual,Functional,,false,"sort field: Name (A to Z)"
+4,Sorting,"Products page",2,"Mohamed Ashraf",8666,Passed,"2025-07-31 16:05:40","1. login
+2. on the products page click on filter top right
+3. choose Name (A to Z)
+4. Name (Z to A)
+5. choose Price (low to high)
+6. choose Price (high to low)
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. the result is arranged alphabetically from a to z
+4. the result is arranged alphabetically from z to a
+5. the result is arranged from low price to high price
+6. the result is arranged from high price to low price
+",,,,,High,Critical,Manual,Functional,,false,"sort field: Name (Z to A)"
+4,Sorting,"Products page",2,"Mohamed Ashraf",8666,Passed,"2025-07-31 16:05:40","1. login
+2. on the products page click on filter top right
+3. choose Name (A to Z)
+4. Name (Z to A)
+5. choose Price (low to high)
+6. choose Price (high to low)
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. the result is arranged alphabetically from a to z
+4. the result is arranged alphabetically from z to a
+5. the result is arranged from low price to high price
+6. the result is arranged from high price to low price
+",,,,,High,Critical,Manual,Functional,,false,"sort field: Price (low to high)"
+4,Sorting,"Products page",2,"Mohamed Ashraf",8666,Passed,"2025-07-31 16:05:40","1. login
+2. on the products page click on filter top right
+3. choose Name (A to Z)
+4. Name (Z to A)
+5. choose Price (low to high)
+6. choose Price (high to low)
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. the result is arranged alphabetically from a to z
+4. the result is arranged alphabetically from z to a
+5. the result is arranged from low price to high price
+6. the result is arranged from high price to low price
+",,,,,High,Critical,Manual,Functional,,false,"sort field: Price (high to low)"
+5,"Products clickable area and takes you to the actual product page","Products page",2,"Mohamed Ashraf",35710,Passed,"2025-07-31 16:06:18",,,,,,,,Medium,Major,Manual,Functional,,false,
+6,"add to cart button","Products page",2,"Mohamed Ashraf",36881,Passed,"2025-07-31 16:06:56","1. on each product on the page click add to cart
+","1. 
+","1. the item is added to the cart and the button changes to remove and the cart is increased by one
+","1. Untested
+","1. ",,,High,Critical,Manual,Functional,,false,
+7,"add to cart button","product page details",3,"Mohamed Ashraf",22005,Passed,"2025-07-31 16:07:19","1. click on add to cart button
+","1. 
+","1. the product is added to the cart and the cart is increased by one
+","1. Untested
+","1. ",,,High,Blocker,Manual,Functional,,false,
+8,"remove button","product page details",3,"Mohamed Ashraf",4258,Passed,"2025-07-31 16:07:24","1. click on the remove button of the product
+","1. 
+","1. the product removed from the cart the cart number is decreased by one
+","1. Untested
+","1. ",,,High,Critical,Manual,Functional,,false,
+9,"remove button","cart page",4,"Mohamed Ashraf",12474,Passed,"2025-07-31 16:07:37","1. click on remove button for a product
+","1. 
+","1. the item is removed from cart
+","1. Untested
+","1. ",,,High,Critical,Manual,Functional,,false,
+10,"checkout button products exists","cart page",4,"Mohamed Ashraf",11344,Passed,"2025-07-31 16:07:50","1. add products to the cart
+2. click on checkout button
+","1. 
+2. 
+","1. 
+2. go to checkout page
+","1. Untested
+2. Untested
+","1. 
+2. ",,,High,Critical,Manual,Functional,,false,
+11,"checkout button cart is empty","cart page",4,"Mohamed Ashraf",7000,Failed,"2025-07-31 16:08:43","1. click on cart
+2. click on checkout
+","1. 
+2. 
+","1. 
+2. check out shouldn't redirect to checkout page
+","1. Untested
+2. Untested
+","1. 
+2. ","<p>the checkout button redirect you to checkout page if there is no products</p>",,High,Critical,Manual,Functional,,false,
+12,"continue shopping button","cart page",4,"Mohamed Ashraf",15061,Passed,"2025-07-31 16:09:32","1. click on continue shopping button
+","1. 
+","1. should be redirected to all products page
+","1. Untested
+","1. ",,,Medium,Normal,Manual,Functional,,false,
+13,"title of the products","cart page",4,"Mohamed Ashraf",13140,Passed,"2025-07-31 16:09:46","1. click on the title of the product
+","1. 
+","1. redirect to product details page
+","1. Untested
+","1. ",,,Medium,Normal,Manual,Functional,,false,
+14,"checkout info valid","Checkout page",5,"Mohamed Ashraf",14378,Passed,"2025-07-31 16:10:01",,,,,,,,High,Critical,Manual,Functional,,true,"First Name: Mohamed
+Last Name: Ashraf
+Zip/Postal Code: 32958"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",69000,Failed,"2025-07-31 16:11:56",,,,,,,,High,Critical,Manual,Functional,,true,"First Name: 001022215
+Last Name: 0.36500
+Zip/Postal Code: slkdmfkldsf"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",151428,Failed,"2025-07-31 16:30:51",,,,,,"<p>all field don't have type validation</p>",,High,Critical,Manual,Functional,,true,"First Name: Mohamed
+Last Name: 56654
+Zip/Postal Code: akldklasjd"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",151428,Failed,"2025-07-31 16:30:51",,,,,,"<p>all field don't have type validation</p>",,High,Critical,Manual,Functional,,true,"First Name: Mohamed
+Last Name: Ashraf
+Zip/Postal Code: lsflksdjflkj"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",151428,Failed,"2025-07-31 16:30:52",,,,,,"<p>all field don't have type validation</p>",,High,Critical,Manual,Functional,,true,"First Name: 329408324
+Last Name: Ashraf
+Zip/Postal Code: 32898"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",151428,Failed,"2025-07-31 16:30:52",,,,,,"<p>all field don't have type validation</p>",,High,Critical,Manual,Functional,,true,"First Name: empty
+Last Name: empty
+Zip/Postal Code: empty"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",151428,Failed,"2025-07-31 16:30:52",,,,,,"<p>all field don't have type validation</p>",,High,Critical,Manual,Functional,,true,"First Name: empty
+Last Name: empty
+Zip/Postal Code: 3213285"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",151428,Failed,"2025-07-31 16:30:52",,,,,,"<p>all field don't have type validation</p>",,High,Critical,Manual,Functional,,true,"First Name: empty
+Last Name: Ashraf
+Zip/Postal Code: 6548"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",151428,Failed,"2025-07-31 16:30:52",,,,,,"<p>all field don't have type validation</p>",,High,Critical,Manual,Functional,,true,"First Name: Mohamed
+Last Name: empty
+Zip/Postal Code: empty"
+16,"cancel button","Checkout page",5,"Mohamed Ashraf",18138,Passed,"2025-07-31 16:31:34",,,,,,,,Medium,Normal,Manual,Functional,,false,
+17,"information of the order should be correct","checkout page step two",6,"Mohamed Ashraf",74483,Passed,"2025-07-31 16:32:49",,,,,,,,"Not set",Normal,Manual,Other,,false,

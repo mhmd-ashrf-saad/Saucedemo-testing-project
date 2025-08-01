@@ -1,0 +1,174 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+4,Sorting,"Products page",2,"Mohamed Ashraf",70058,Passed,"2025-07-31 16:38:16","1. login
+2. on the products page click on filter top right
+3. choose Name (A to Z)
+4. Name (Z to A)
+5. choose Price (low to high)
+6. choose Price (high to low)
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. the result is arranged alphabetically from a to z
+4. the result is arranged alphabetically from z to a
+5. the result is arranged from low price to high price
+6. the result is arranged from high price to low price
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. ",,,High,Critical,Manual,Functional,,false,"sort field: Name (A to Z)"
+4,Sorting,"Products page",2,"Mohamed Ashraf",8666,Failed,"2025-07-31 16:39:29","1. login
+2. on the products page click on filter top right
+3. choose Name (A to Z)
+4. Name (Z to A)
+5. choose Price (low to high)
+6. choose Price (high to low)
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. the result is arranged alphabetically from a to z
+4. the result is arranged alphabetically from z to a
+5. the result is arranged from low price to high price
+6. the result is arranged from high price to low price
+",,,"<p>sorting tab isn't active<br />
+doesn't work</p>",,High,Critical,Manual,Functional,,false,"sort field: Name (Z to A)"
+4,Sorting,"Products page",2,"Mohamed Ashraf",8666,Failed,"2025-07-31 16:39:29","1. login
+2. on the products page click on filter top right
+3. choose Name (A to Z)
+4. Name (Z to A)
+5. choose Price (low to high)
+6. choose Price (high to low)
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. the result is arranged alphabetically from a to z
+4. the result is arranged alphabetically from z to a
+5. the result is arranged from low price to high price
+6. the result is arranged from high price to low price
+",,,"<p>sorting tab isn't active<br />
+doesn't work</p>",,High,Critical,Manual,Functional,,false,"sort field: Price (low to high)"
+4,Sorting,"Products page",2,"Mohamed Ashraf",8666,Failed,"2025-07-31 16:39:29","1. login
+2. on the products page click on filter top right
+3. choose Name (A to Z)
+4. Name (Z to A)
+5. choose Price (low to high)
+6. choose Price (high to low)
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. the result is arranged alphabetically from a to z
+4. the result is arranged alphabetically from z to a
+5. the result is arranged from low price to high price
+6. the result is arranged from high price to low price
+",,,"<p>sorting tab isn't active<br />
+doesn't work</p>",,High,Critical,Manual,Functional,,false,"sort field: Price (high to low)"
+5,"Products clickable area and takes you to the actual product page","Products page",2,"Mohamed Ashraf",18000,Failed,"2025-07-31 16:40:47",,,,,,"<p>all products redirect to another products not them</p>",,Medium,Major,Manual,Functional,,false,
+6,"add to cart button","Products page",2,"Mohamed Ashraf",42000,Failed,"2025-07-31 16:42:14","1. on each product on the page click add to cart
+","1. 
+","1. the item is added to the cart and the button changes to remove and the cart is increased by one
+","1. Untested
+","1. ","<p>not all the buttons are working</p>",,High,Critical,Manual,Functional,,false,
+18,"validate data","Products page",2,"Mohamed Ashraf",9000,Failed,"2025-07-31 16:43:22",,,,,,"<p>the images isn't for the products</p>",,High,Critical,Manual,Other,,false,
+7,"add to cart button","product page details",3,"Mohamed Ashraf",82000,Failed,"2025-07-31 16:46:07","1. click on add to cart button
+","1. 
+","1. the product is added to the cart and the cart is increased by one
+","1. Untested
+","1. ","<p>in products with id 5, 1, 3 add to cart button isn't working</p>",,High,Blocker,Manual,Functional,,false,
+8,"remove button","product page details",3,"Mohamed Ashraf",27000,Failed,"2025-07-31 16:47:08","1. click on the remove button of the product
+","1. 
+","1. the product removed from the cart the cart number is decreased by one
+","1. Untested
+","1. ","<p>remove button doesn't work except on cart page</p>",,High,Critical,Manual,Functional,,false,
+9,"remove button","cart page",4,"Mohamed Ashraf",206083,Passed,"2025-07-31 16:50:44","1. click on remove button for a product
+","1. 
+","1. the item is removed from cart
+","1. Untested
+","1. ",,,High,Critical,Manual,Functional,,false,
+10,"checkout button products exists","cart page",4,"Mohamed Ashraf",13117,Passed,"2025-07-31 16:50:59","1. add products to the cart
+2. click on checkout button
+","1. 
+2. 
+","1. 
+2. go to checkout page
+","1. Untested
+2. Untested
+","1. 
+2. ",,,High,Critical,Manual,Functional,,false,
+11,"checkout button cart is empty","cart page",4,"Mohamed Ashraf",7000,Failed,"2025-07-31 16:51:08","1. click on cart
+2. click on checkout
+","1. 
+2. 
+","1. 
+2. check out shouldn't redirect to checkout page
+","1. Untested
+2. Untested
+","1. 
+2. ",,,High,Critical,Manual,Functional,,false,
+12,"continue shopping button","cart page",4,"Mohamed Ashraf",19645,Passed,"2025-07-31 16:51:40","1. click on continue shopping button
+","1. 
+","1. should be redirected to all products page
+","1. Untested
+","1. ",,,Medium,Normal,Manual,Functional,,false,
+13,"title of the products","cart page",4,"Mohamed Ashraf",10000,Failed,"2025-07-31 16:52:27","1. click on the title of the product
+","1. 
+","1. redirect to product details page
+","1. Untested
+","1. ","<p>it redirect to another products</p>",,Medium,Normal,Manual,Functional,,false,
+14,"checkout info valid","Checkout page",5,"Mohamed Ashraf",73600,Invalid,"2025-08-01 11:45:53",,,,,,"<p>can't test because the Last Name field is corrupted</p>",,High,Critical,Manual,Functional,,true,"First Name: Mohamed
+Last Name: Ashraf
+Zip/Postal Code: 32958"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",73600,Invalid,"2025-08-01 11:45:53",,,,,,"<p>can't test because the Last Name field is corrupted</p>",,High,Critical,Manual,Functional,,true,"First Name: 001022215
+Last Name: 0.36500
+Zip/Postal Code: slkdmfkldsf"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",73600,Invalid,"2025-08-01 11:45:53",,,,,,"<p>can't test because the Last Name field is corrupted</p>",,High,Critical,Manual,Functional,,true,"First Name: Mohamed
+Last Name: 56654
+Zip/Postal Code: akldklasjd"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",73600,Invalid,"2025-08-01 11:45:53",,,,,,"<p>can't test because the Last Name field is corrupted</p>",,High,Critical,Manual,Functional,,true,"First Name: Mohamed
+Last Name: Ashraf
+Zip/Postal Code: lsflksdjflkj"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",73600,Invalid,"2025-08-01 11:45:53",,,,,,"<p>can't test because the Last Name field is corrupted</p>",,High,Critical,Manual,Functional,,true,"First Name: 329408324
+Last Name: Ashraf
+Zip/Postal Code: 32898"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",73600,Invalid,"2025-08-01 11:45:53",,,,,,"<p>can't test because the Last Name field is corrupted</p>",,High,Critical,Manual,Functional,,true,"First Name: empty
+Last Name: empty
+Zip/Postal Code: empty"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",73600,Invalid,"2025-08-01 11:45:53",,,,,,"<p>can't test because the Last Name field is corrupted</p>",,High,Critical,Manual,Functional,,true,"First Name: empty
+Last Name: empty
+Zip/Postal Code: 3213285"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",73600,Invalid,"2025-08-01 11:45:53",,,,,,"<p>can't test because the Last Name field is corrupted</p>",,High,Critical,Manual,Functional,,true,"First Name: empty
+Last Name: Ashraf
+Zip/Postal Code: 6548"
+15,"checkout info is invalid","Checkout page",5,"Mohamed Ashraf",73600,Invalid,"2025-08-01 11:45:53",,,,,,"<p>can't test because the Last Name field is corrupted</p>",,High,Critical,Manual,Functional,,true,"First Name: Mohamed
+Last Name: empty
+Zip/Postal Code: empty"
+16,"cancel button","Checkout page",5,"Mohamed Ashraf",1000,Invalid,"2025-08-01 11:44:43",,,,,,"<p>cant't check because the input fir Last Name is corrupted</p>",,Medium,Normal,Manual,Functional,,false,
+16,"cancel button","Checkout page",5,"Mohamed Ashraf",0,Retest,"2025-08-01 11:45:27",,,,,,,,Medium,Normal,Manual,Functional,,false,
+16,"cancel button","Checkout page",5,"Mohamed Ashraf",42380,Passed,"2025-08-01 11:46:11",,,,,,,,Medium,Normal,Manual,Functional,,false,
+17,"information of the order should be correct","checkout page step two",6,"Mohamed Ashraf",73600,Invalid,"2025-08-01 11:45:53",,,,,,"<p>can't test because the Last Name field is corrupted</p>",,"Not set",Normal,Manual,Other,,false,
